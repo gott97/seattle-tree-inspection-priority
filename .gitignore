@@ -1,0 +1,62 @@
+# ArcGIS Pro project state and generated folders
+.backups/
+GpMessages/
+ImportLog/
+Index/
+RasterFunctionTemplates/
+*.aprx
+*.aprx~
+*.atbx
+*.tbx
+*.lock
+*.lck
+
+# Esri geodatabases and temporary outputs
+*.gdb/
+*.sde
+*.sd
+*.sd_draft
+*.sdraft
+*.ags
+outputs/
+publish/
+scratch/
+temp/
+tmp/
+
+# Local source data: retain documentation, not bulk data
+data/*
+!data/README.md
+!data/sample/
+!data/sample/**
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+config.local.*
+credentials*
+token*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
