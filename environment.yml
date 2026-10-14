@@ -1,0 +1,20 @@
+name: seattle-tree-inspection-priority
+channels:
+  - esri
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - arcgis
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - requests
+
+# Recommended use:
+# Clone the ArcGIS Pro arcgispro-py3 environment first, then install any
+# dependencies above that are not already included. ArcPy is distributed with
+# ArcGIS Pro and is intentionally not treated as a portable pip dependency.
+# Confirm this list against the six final notebooks before tagging a release.
+

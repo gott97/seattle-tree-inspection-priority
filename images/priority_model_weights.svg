@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .title{font:700 42px 'DejaVu Sans',sans-serif;fill:#003b3a}.subtitle{font:400 21px 'DejaVu Sans',sans-serif;fill:#526a69}
+      .card-title{font:700 24px 'DejaVu Sans',sans-serif;fill:#003b3a}.total{font:700 40px 'DejaVu Sans',sans-serif;fill:#e96b2c}
+      .label{font:600 19px 'DejaVu Sans',sans-serif;fill:#294847}.pct{font:700 19px 'DejaVu Sans',sans-serif;fill:#003b3a}
+      .center-kicker{font:700 18px 'DejaVu Sans',sans-serif;fill:#d9f0ed;letter-spacing:1.5px}.center-main{font:700 31px 'DejaVu Sans',sans-serif;fill:white}.center-score{font:700 56px 'DejaVu Sans',sans-serif;fill:#ffbd7c}
+      .note{font:400 18px 'DejaVu Sans',sans-serif;fill:#526a69}.group{fill:#fff;stroke:#cadbd8;stroke-width:2}.track{fill:#e8f1ef}.teal{fill:#078d89}.orange{fill:#eb6d2e}.gold{fill:#dcae48}.rust{fill:#be5631}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#173e3c" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#078d89"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="#fbfaf6"/>
+  <text x="80" y="80" class="title">How the Inspection Priority Index is weighted</text>
+  <text x="80" y="118" class="subtitle">Nine criteria combine into one transparent 0–100 decision-support score.</text>
+
+  <g>
+    <rect x="80" y="175" width="610" height="275" rx="22" class="group"/>
+    <rect x="80" y="480" width="610" height="260" rx="22" class="group"/>
+    <rect x="760" y="175" width="430" height="275" rx="22" class="group"/>
+    <rect x="760" y="480" width="430" height="260" rx="22" class="group"/>
+  </g>
+
+  <text x="115" y="205" class="card-title">Tree condition &amp;</text><text x="115" y="237" class="card-title">characteristics</text><text x="650" y="230" text-anchor="end" class="total">58%</text>
+  <text x="115" y="290" class="label">Simulated condition</text><text x="635" y="290" text-anchor="end" class="pct">30%</text>
+  <rect x="115" y="304" width="520" height="14" rx="7" class="track"/><rect x="115" y="304" width="269" height="14" rx="7" class="orange"/>
+  <text x="115" y="352" class="label">Cleaned or imputed diameter</text><text x="635" y="352" text-anchor="end" class="pct">18%</text>
+  <rect x="115" y="366" width="520" height="14" rx="7" class="track"/><rect x="115" y="366" width="161" height="14" rx="7" class="orange"/>
+  <text x="115" y="414" class="label">DBH-derived maturity</text><text x="635" y="414" text-anchor="end" class="pct">10%</text>
+  <rect x="115" y="428" width="520" height="14" rx="7" class="track"/><rect x="115" y="428" width="90" height="14" rx="7" class="orange"/>
+
+  <text x="115" y="520" class="card-title">Public exposure</text><text x="650" y="535" text-anchor="end" class="total">24%</text>
+  <text x="115" y="580" class="label">Near a school</text><text x="635" y="580" text-anchor="end" class="pct">8%</text>
+  <text x="115" y="622" class="label">Near a sidewalk</text><text x="635" y="622" text-anchor="end" class="pct">7%</text>
+  <text x="115" y="664" class="label">Near an arterial street</text><text x="635" y="664" text-anchor="end" class="pct">5%</text>
+  <text x="115" y="706" class="label">Near a trail</text><text x="635" y="706" text-anchor="end" class="pct">4%</text>
+  <rect x="390" y="566" width="158" height="18" rx="9" class="track"/><rect x="390" y="566" width="53" height="18" rx="9" class="gold"/>
+  <rect x="390" y="608" width="158" height="18" rx="9" class="track"/><rect x="390" y="608" width="46" height="18" rx="9" class="gold"/>
+  <rect x="390" y="650" width="158" height="18" rx="9" class="track"/><rect x="390" y="650" width="33" height="18" rx="9" class="gold"/>
+  <rect x="390" y="692" width="158" height="18" rx="9" class="track"/><rect x="390" y="692" width="26" height="18" rx="9" class="gold"/>
+
+  <text x="795" y="215" class="card-title">Inspection timing</text><text x="1145" y="230" text-anchor="end" class="total">15%</text>
+  <circle cx="835" cy="310" r="38" fill="#e3f2f0"/><path d="M835 286v26l18 12" fill="none" stroke="#078d89" stroke-width="6" stroke-linecap="round"/><circle cx="835" cy="310" r="28" fill="none" stroke="#078d89" stroke-width="4"/>
+  <text x="890" y="298" class="label">Time since the most recent</text><text x="890" y="328" class="label">simulated inspection</text>
+  <rect x="795" y="376" width="350" height="16" rx="8" class="track"/><rect x="795" y="376" width="175" height="16" rx="8" class="teal"/>
+  <text x="795" y="422" class="note">Capped at 100 after seven years</text>
+
+  <text x="795" y="520" class="card-title">Equity context</text><text x="1145" y="535" text-anchor="end" class="total">3%</text>
+  <g transform="translate(805 574)" fill="none" stroke="#be5631" stroke-width="4"><rect x="0" y="0" width="34" height="34"/><rect x="42" y="0" width="34" height="34"/><rect x="0" y="42" width="34" height="34"/><rect x="42" y="42" width="34" height="34" fill="#f6c6ad"/></g>
+  <text x="905" y="590" class="label">Trees in highest-priority</text><text x="905" y="620" class="label">RSE percentile areas</text>
+  <rect x="795" y="672" width="350" height="16" rx="8" class="track"/><rect x="795" y="672" width="35" height="16" rx="8" class="rust"/>
+  <text x="795" y="708" class="note">Context indicator—not a stand-alone</text><text x="795" y="732" class="note">decision criterion</text>
+
+  <path d="M1210 450 H1250" fill="none" stroke="#078d89" stroke-width="5" marker-end="url(#arrow)"/>
+  <circle cx="1410" cy="450" r="135" fill="#004f4d"/>
+  <text x="1410" y="390" text-anchor="middle" class="center-kicker">WEIGHTED SUM</text>
+  <text x="1410" y="438" text-anchor="middle" class="center-main">Inspection</text>
+  <text x="1410" y="478" text-anchor="middle" class="center-main">Priority Index</text>
+  <text x="1410" y="540" text-anchor="middle" class="center-score">0–100</text>
+
+  <text x="80" y="825" class="note">Percentages sum to 100%. Proximity and equity indicators enter the calculation as binary 0-or-100 values.</text>
+  <rect x="80" y="853" width="1440" height="5" rx="2.5" fill="#078d89"/>
+</svg>
